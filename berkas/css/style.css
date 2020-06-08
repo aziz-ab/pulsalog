@@ -1,0 +1,111 @@
+.body{
+	background-color: #fff;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.navbar-custom{
+	background: #A8221B;
+	box-shadow: 0 0 4px #555;
+}
+
+.navbar-custom1{
+	background: #1F1A17;
+	box-shadow: 0 0 4px #555;
+}
+
+.navbar-inverse{
+	box-shadow: 0 0 4px #555;
+}
+
+.bg-login{
+    background: rgba(255,255,255,.5);
+    border-radius: 4px;
+}
+
+.asterisk{
+    color: red;
+}
+
+.cursor{
+	cursor: pointer;
+}
+
+.disnone{
+	display: none;
+}
+
+.navbar-custom .navbar-nav > li > a,
+.navbar-custom .navbar-nav > li > a {
+  color: #fff;
+}
+
+.navbar-custom .navbar-nav > li > a:hover,
+.navbar-custom .navbar-nav > li > a:focus {
+  color: #fff;
+  background-color: #A8221B;
+}
+
+.navbar-custom1 .navbar-nav > li > a,
+.navbar-custom1 .navbar-nav > li > a {
+  color: #fff;
+}
+
+.navbar-custom1 .navbar-nav > li > a:hover,
+.navbar-custom1 .navbar-nav > li > a:focus {
+  color: #fff;
+  background-color: #1F1A17;
+}
+
+.navbar-custom .navbar-nav > li > a.active {
+  color: #fff;
+  background-color: #A8221A;
+}
+
+.navbar-custom1 .navbar-nav > li > a.active {
+  color: #fff;
+  background-color: #555555;
+}
+
+.indikator_merah{
+	color:red;
+}
+
+.indikator_kuning{
+	color:#FFC400;
+}
+
+.indikator_hijau{
+	color:green;
+}
+
+/* */
+
+
+.dropdown-submenu {
+    position: relative;
+}
+
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+	top: -8px;
+	left: 100%;
+	width: 270%;
+}
+
+.dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+}
